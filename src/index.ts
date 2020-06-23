@@ -6,7 +6,7 @@ reader.read();
 
 console.log(reader.data[0][0]);
 
-let manUnwins = 0;
+let manUnwins = 1;
 
 for (let match of reader.data) {
   if (match[1] === 'Man United' && match[5] === 'H') {
